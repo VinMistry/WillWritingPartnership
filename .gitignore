@@ -1,2 +1,23 @@
+# Files Extension To Ignore #
+#############################
+*.psd
+*.pem
+*.ppk
 
-.idea/workspace.xml
+# Directories To Ignore #
+#########################
+install_files/
+install.php
+.idea/
+
+# OS Generated Files To Ignore #
+################################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+storage/framework/cache/02/00/0200da06a10d4de2291df021260283c30a5d3216
+storage/framework/cache/02/00/0200da06a10d4de2291df021260283c30a5d3216
