@@ -20,11 +20,11 @@ paramCode = "code"
 
 <div class="container">
     <h3>Account Details</h3>
-{% component 'account' %}
+    {% component 'account' %}
 </div>
 
 
 <div class="container">
     <p><a class ="fgt-psswd" href="{{ 'forgot-password'|page }}">Forgotten your password?</a></p>
-    <a data-request="onLogout" data-request-data="redirect: '/account'">Sign out</a>
+    <a data-request="onLogout"  data-request-data="redirect: '/account'"><button  class="btn btn-primary">Sign out</button></a>
 </div>

@@ -1,35 +1,35 @@
 @font-face {
-  font-family: 'lato';
-  src: url('../fonts/lato-black-webfont.eot');
-  src: url('../fonts/lato-black-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/lato-black-webfont.svg#latoblack') format('svg'), url('../fonts/lato-black-webfont.woff') format('woff'), url('../fonts/lato-black-webfont.ttf') format('truetype');
-  font-weight: 700;
-  font-style: normal;
+    font-family: 'lato';
+    src: url('../fonts/lato-black-webfont.eot');
+    src: url('../fonts/lato-black-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/lato-black-webfont.svg#latoblack') format('svg'), url('../fonts/lato-black-webfont.woff') format('woff'), url('../fonts/lato-black-webfont.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
 }
 @font-face {
-  font-family: 'lato';
-  src: url('../fonts/lato-italic-webfont.eot');
-  src: url('../fonts/lato-italic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/lato-italic-webfont.svg#latoitalic') format('svg'), url('../fonts/lato-italic-webfont.woff') format('woff'), url('../fonts/lato-italic-webfont.ttf') format('truetype');
-  font-weight: 400;
-  font-style: italic;
+    font-family: 'lato';
+    src: url('../fonts/lato-italic-webfont.eot');
+    src: url('../fonts/lato-italic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/lato-italic-webfont.svg#latoitalic') format('svg'), url('../fonts/lato-italic-webfont.woff') format('woff'), url('../fonts/lato-italic-webfont.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
 }
 @font-face {
-  font-family: 'lato';
-  src: url('../fonts/lato-regular-webfont.eot');
-  src: url('../fonts/lato-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/lato-regular-webfont.svg#latoregular') format('svg'), url('../fonts/lato-regular-webfont.woff') format('woff'), url('../fonts/lato-regular-webfont.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
+    font-family: 'lato';
+    src: url('../fonts/lato-regular-webfont.eot');
+    src: url('../fonts/lato-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/lato-regular-webfont.svg#latoregular') format('svg'), url('../fonts/lato-regular-webfont.woff') format('woff'), url('../fonts/lato-regular-webfont.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
 }
 @font-face {
-  font-family: 'lato';
-  src: url('../fonts/lato-light-webfont.eot');
-  src: url('../fonts/lato-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/lato-light-webfont.svg#latolight') format('svg'), url('../fonts/lato-light-webfont.woff') format('woff'), url('../fonts/lato-light-webfont.ttf') format('truetype');
-  font-weight: 300;
-  font-style: normal;
+    font-family: 'lato';
+    src: url('../fonts/lato-light-webfont.eot');
+    src: url('../fonts/lato-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/lato-light-webfont.svg#latolight') format('svg'), url('../fonts/lato-light-webfont.woff') format('woff'), url('../fonts/lato-light-webfont.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
-  select {
-    font-family: sans-serif;
-  }
+    select {
+        font-family: sans-serif;
+    }
 }
 
 #footer {
@@ -128,7 +128,7 @@
 }
 
 {
-  background-color: #784b89 !important;
+    background-color: #784b89 !important;
 }
 
 
@@ -162,7 +162,7 @@
 }
 
 .card-img-top {
-  float: right;
+    float: right;
 }
 
 .card-text{
@@ -171,64 +171,64 @@
 }
 
 .fl-fl {
-  background: #784b89;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  padding: 4px;
-  width: 190px;
-  position: fixed;
-  right: -150px;
-  z-index: 1000;
-  font: normal normal 10px lato;
-  -webkit-transition: all .25s ease;
-  -moz-transition: all .25s ease;
-  -ms-transition: all .25s ease;
-  -o-transition: all .25s ease;
-  transition: all .25s ease;
+    background: #784b89;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 4px;
+    width: 190px;
+    position: fixed;
+    right: -150px;
+    z-index: 1000;
+    font: normal normal 10px lato;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
 }
 
 .float-sm .fa {
-  font-size: 20px;
-  color: #fff;
-  padding: 10px 0;
-  width: 40px;
-  margin-left: 8px;
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 0;
+    width: 40px;
+    margin-left: 8px;
 }
 
 .fl-fl:hover {
-  right: 0;
+    right: 0;
 }
 
 .fl-fl a {
-  color: #fff !important;
-  text-decoration: none;
-  text-align: center;
-  line-height: 43px!important;
-  vertical-align: top!important;
+    color: #fff !important;
+    text-decoration: none;
+    text-align: center;
+    line-height: 43px!important;
+    vertical-align: top!important;
 }
 
 .float-fb {
-  top: 160px;
+    top: 160px;
 }
 
 .float-tw {
-  top: 215px;
+    top: 215px;
 }
 
 .float-gp {
-  top: 270px;
+    top: 270px;
 }
 
 .float-rs {
-  top: 325px;
+    top: 325px;
 }
 
 .float-ig {
-  top: 380px;
+    top: 380px;
 }
 
 .float-pn {
-  top: 435px;
+    top: 435px;
 }
 
 .faq-top.card-body.text-center {
@@ -238,9 +238,9 @@
     background-color: white;
     max-width: 50%;
     border-radius: 20px 20px 0px 0px;
-  }
+}
 
-  p.faq-top-text.text-center {
+p.faq-top-text.text-center {
     position: relative;
     top: -2rem;
     margin-bottom: 3rem;
@@ -256,7 +256,7 @@ a.faq {
 }
 
 .faq.card-header{
-      margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 .container.contact-form {
@@ -305,7 +305,11 @@ img.media-object {
     opacity: 0.9;*/
 }
 
-.logInButton a {
+.section-padding{
+    padding: 0.5em;
+}
+
+logInButton a {
     color: white;
 }
 .navigation {
