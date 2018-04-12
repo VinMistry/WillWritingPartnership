@@ -11,9 +11,5 @@ namespace Testsy;
 
 class Test
 {
-    function echoTests($s){
-        echo $s;
-    }
-
 
 }

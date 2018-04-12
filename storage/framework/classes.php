@@ -52,4 +52,7 @@
   'system\\Controllers\\updates' => 'modules/system/controllers/updates.php',
   'martin\\forms\\Controllers\\records' => 'plugins/martin/forms/controllers/records.php',
   'RainLab\\User\\Models\\UserGroup' => 'plugins/rainlab/user/models/UserGroup.php',
+  'backend\\Controllers\\users' => 'modules/backend/controllers/users.php',
+  'backend\\Controllers\\accesslogs' => 'modules/backend/controllers/accesslogs.php',
+  'system\\Controllers\\mailtemplates' => 'modules/system/controllers/mailtemplates.php',
 );

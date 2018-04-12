@@ -32,7 +32,7 @@ redirect = "home"
 </section>
 <section class="section-padding">
     <div class="container ">
-        <form action="user">
+        <form action="">
             <div class="form-group">
                 <label>Mobile Number</label>
                 <input type="tel" id="mobile" name="mobile" class="form-control" placeholder="Mobile Number" />
@@ -46,9 +46,3 @@ redirect = "home"
         <a data-request="onLogout" data-request-data="redirect: '/account'"><button  class="btn btn-primary">Sign out</button></a>
     </div>
 </section>
-
-<?php
-    if (isset($_POST['mobile'])) {
-        echo $_POST['mobile'];
-    }
- ?>

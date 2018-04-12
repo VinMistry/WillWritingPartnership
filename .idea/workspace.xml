@@ -2,9 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8127ddef-a9a4-47db-ac3b-22fdd95ebd7f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/themes/WillWritingPartnership/pages/calc.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/WillWritingPartnership/partials/calcresult.htm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/WillWritingPartnership/assets/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/WillWritingPartnership/assets/css/theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/WillWritingPartnership/pages/account.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/WillWritingPartnership/pages/account.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/11/de/11de31e1eabb2682cf62ee9c9ccb0630f1019006" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/11/de/11de31e1eabb2682cf62ee9c9ccb0630f1019006" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/22/43/2243f500ae1632e1e609a9d4d08e7bad65800071" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/22/43/2243f500ae1632e1e609a9d4d08e7bad65800071" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/77/61/77616e1c5e0d202cb4cf522bddafaebf56f27660" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/77/61/77616e1c5e0d202cb4cf522bddafaebf56f27660" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/97/37/9737833e426f53b3dcb4d98fdcb68c76762765de" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/97/37/9737833e426f53b3dcb4d98fdcb68c76762765de" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/a0/c9/a0c910eb995ad1e9281e5bb05187281e039e242f" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/a0/c9/a0c910eb995ad1e9281e5bb05187281e039e242f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/c3/f8/c3f82a7aec576624978cc7b3e051bbbb4e17fa20" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/c3/f8/c3f82a7aec576624978cc7b3e051bbbb4e17fa20" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/d0/1e/d01e8e95ac402ba16ad83ad09f6851991c3b6212" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/d0/1e/d01e8e95ac402ba16ad83ad09f6851991c3b6212" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/classes.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/classes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/ZNHtdEEerSsGRFV0ZSafXkW358VuxpR6zGGVK3zi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/e2NSQ4c2FAVAvaMdi5aT0LYroJityoY8IBGJSJtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/wP3VrryQUknWzvj5P4jp7ZeGpGMVYwzGaQ9a6yze" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/yNnYeWRwp3uKViSOj2LTVvu5j9UXkpQlTUN2QonG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/WillWritingPartnership/assets/php/Test.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/WillWritingPartnership/assets/php/Test.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/WillWritingPartnership/pages/user.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/WillWritingPartnership/pages/user.htm" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +32,26 @@
       <file leaf-file-name="user.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/user.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="771">
-              <caret line="53" column="3" selection-start-line="53" selection-start-column="3" selection-end-line="53" selection-end-column="3" />
+            <state relative-caret-position="141">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="calc.htm" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/calc.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="calcresult.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/partials/calcresult.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -28,17 +59,17 @@
       <file leaf-file-name="account.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/account.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+            <state relative-caret-position="30">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="theme.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="theme.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/assets/css/theme.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="771">
-              <caret line="543" lean-forward="true" selection-start-line="543" selection-end-line="543" />
+              <caret line="543" selection-start-line="543" selection-end-line="543" />
             </state>
           </provider>
         </entry>
@@ -51,10 +82,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/themes/WillWritingPartnership/assets/php/Test.php" />
-        <option value="$PROJECT_DIR$/themes/WillWritingPartnership/pages/user.htm" />
         <option value="$PROJECT_DIR$/themes/WillWritingPartnership/pages/account.htm" />
         <option value="$PROJECT_DIR$/themes/WillWritingPartnership/assets/css/theme.css" />
+        <option value="$PROJECT_DIR$/themes/WillWritingPartnership/pages/user.htm" />
+        <option value="$PROJECT_DIR$/themes/WillWritingPartnership/partials/calcresult.htm" />
+        <option value="$PROJECT_DIR$/themes/WillWritingPartnership/assets/php/Test.php" />
+        <option value="$PROJECT_DIR$/themes/WillWritingPartnership/pages/calc.htm" />
       </list>
     </option>
   </component>
@@ -147,6 +180,13 @@
               <item name="WillWritingPartnership" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="pages" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="WillWritingPartnership" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WillWritingPartnership" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="WillWritingPartnership" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="partials" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -181,16 +221,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523352119807</updated>
-      <workItem from="1523352121553" duration="777000" />
+      <workItem from="1523352121553" duration="6975000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="777000" />
+    <option name="totallyTimeSpent" value="6975000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -223,31 +262,52 @@
     <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/createwill.htm">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/assets/php/Test.php">
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/assets/css/theme.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        <state relative-caret-position="771">
+          <caret line="543" selection-start-line="543" selection-end-line="543" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/partials/header.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="60" lean-forward="true" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/user.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="771">
-          <caret line="53" column="3" selection-start-line="53" selection-start-column="3" selection-end-line="53" selection-end-column="3" />
+        <state relative-caret-position="141">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/account.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/assets/css/theme.css">
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/assets/php/Test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="771">
-          <caret line="543" lean-forward="true" selection-start-line="543" selection-end-line="543" />
+        <state relative-caret-position="150">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/partials/calcresult.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/calc.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
         </state>
       </provider>
     </entry>
