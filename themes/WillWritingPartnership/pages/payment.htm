@@ -1,0 +1,14 @@
+url = "/payment"
+layout = "default"
+==
+<?
+
+function onStart()
+{
+    include(
+    $test = new Payments\Payment();
+    $test.runPayment();
+}
+?>
+
+==

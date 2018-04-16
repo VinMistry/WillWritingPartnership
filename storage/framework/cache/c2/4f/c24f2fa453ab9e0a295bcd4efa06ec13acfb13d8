@@ -1,4 +1,4 @@
-1523528832a:1:{s:8:"calc.htm";a:7:{s:8:"fileName";s:8:"calc.htm";s:7:"content";s:1503:"url = "/calc"
+1523907939a:1:{s:8:"calc.htm";a:7:{s:8:"fileName";s:8:"calc.htm";s:7:"content";s:1502:"url = "/calc"
 layout = "default"
 ==
 <?
@@ -27,12 +27,11 @@ layout = "default"
             $ans = $this['answer'];
             break;
         }
-       $result = pg_query($dbconn3,"INSERT INTO math (value) VALUES ($ans)");
+       $result = pg_query($dbconn3,"INSERT INTO Math (value) VALUES ($ans)");
     }
 ?>
 ==
 <h1>Hello</h1>
-
 <form class="form-inline" data-request="onTest" data-request-update="calcresult: '#result'">
     <input type="text" name="value1" value="" class="form-control" >
     <select name="operation" class="form-control">
@@ -50,8 +49,7 @@ layout = "default"
 <div id="result">
     {% partial "calcresult" %}
 </div>
-";s:5:"mtime";i:1523377594;s:6:"markup";s:562:"<h1>Hello</h1>
-
+";s:5:"mtime";i:1523630407;s:6:"markup";s:561:"<h1>Hello</h1>
 <form class="form-inline" data-request="onTest" data-request-update="calcresult: '#result'">
     <input type="text" name="value1" value="" class="form-control" >
     <select name="operation" class="form-control">
@@ -93,5 +91,5 @@ layout = "default"
             $ans = $this['answer'];
             break;
         }
-       $result = pg_query($dbconn3,"INSERT INTO math (value) VALUES ($ans)");
+       $result = pg_query($dbconn3,"INSERT INTO Math (value) VALUES ($ans)");
     }";s:3:"url";s:5:"/calc";s:6:"layout";s:7:"default";}}

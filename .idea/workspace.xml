@@ -2,23 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8127ddef-a9a4-47db-ac3b-22fdd95ebd7f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/themes/WillWritingPartnership/pages/calc.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/WillWritingPartnership/partials/calcresult.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/WillWritingPartnership/pages/Test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/WillWritingPartnership/pages/payment.htm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/c2/d9/calc.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/c2/d9/calc.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/02/028c9e11db5b6d88c156dcff227963fda25f85bbb9aba8c9b6b872f612293abc.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/twig/02/028c9e11db5b6d88c156dcff227963fda25f85bbb9aba8c9b6b872f612293abc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/00/88/00880e5f381083b8cba38d60260f3bfce6e63e8a" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/00/88/00880e5f381083b8cba38d60260f3bfce6e63e8a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/03/1d/031d4cfa6c1b6943ca053313d2f0ab88961690c3" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/03/1d/031d4cfa6c1b6943ca053313d2f0ab88961690c3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/07/13/071302ef5122d34d1695311ae3f37a3497816753" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/07/13/071302ef5122d34d1695311ae3f37a3497816753" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/0d/93/0d9363b193a19dc9b6d11970c8e156a5ce693169" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/0d/93/0d9363b193a19dc9b6d11970c8e156a5ce693169" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/0e/53/0e5306dd5966c79beb815c0b526dcdd3c56c679b" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/0e/53/0e5306dd5966c79beb815c0b526dcdd3c56c679b" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/11/de/11de31e1eabb2682cf62ee9c9ccb0630f1019006" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/11/de/11de31e1eabb2682cf62ee9c9ccb0630f1019006" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/22/43/2243f500ae1632e1e609a9d4d08e7bad65800071" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/22/43/2243f500ae1632e1e609a9d4d08e7bad65800071" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/77/61/77616e1c5e0d202cb4cf522bddafaebf56f27660" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/77/61/77616e1c5e0d202cb4cf522bddafaebf56f27660" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/97/37/9737833e426f53b3dcb4d98fdcb68c76762765de" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/97/37/9737833e426f53b3dcb4d98fdcb68c76762765de" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/a0/c9/a0c910eb995ad1e9281e5bb05187281e039e242f" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/a0/c9/a0c910eb995ad1e9281e5bb05187281e039e242f" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/c3/f8/c3f82a7aec576624978cc7b3e051bbbb4e17fa20" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/c3/f8/c3f82a7aec576624978cc7b3e051bbbb4e17fa20" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/1a/56/1a561de7d301781edab4e1a7857d6be6e199d3b3" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/1a/56/1a561de7d301781edab4e1a7857d6be6e199d3b3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/2e/a6/2ea6e4f8247641607404d18fb5a91f6ecd127a5d" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/2e/a6/2ea6e4f8247641607404d18fb5a91f6ecd127a5d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/32/4e/324ecd9f411da53c8be6d42230422490c50a49f2" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/32/4e/324ecd9f411da53c8be6d42230422490c50a49f2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/36/08/3608a21c251fe3821d32131c6292c35024f4ab5c" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/36/08/3608a21c251fe3821d32131c6292c35024f4ab5c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/36/32/3632c68269fa8b206cd70955091be0482d14ab8d" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/36/32/3632c68269fa8b206cd70955091be0482d14ab8d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/36/d8/36d8e4af18887bc525041291c3bdccea184cd1ff" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/36/d8/36d8e4af18887bc525041291c3bdccea184cd1ff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/42/8b/428b2a39f5d0abd4199e7e55682ecf6238d5e4ba" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/42/8b/428b2a39f5d0abd4199e7e55682ecf6238d5e4ba" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/5a/6e/5a6e3764ca5a7a1600da0271b0e5870ce79d4070" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/5a/6e/5a6e3764ca5a7a1600da0271b0e5870ce79d4070" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/6c/b5/6cb5d35122e3cc7de906baa757068b0970b1f9a5" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/6c/b5/6cb5d35122e3cc7de906baa757068b0970b1f9a5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/72/4d/724d64623b82cdd367a46a1a3611b8fce75faedf" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/72/4d/724d64623b82cdd367a46a1a3611b8fce75faedf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/72/d6/72d6ebf3d16674fee7d5fbad10a93138f517376f" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/72/d6/72d6ebf3d16674fee7d5fbad10a93138f517376f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/74/91/7491bf4c3905a255930cf9fcce1ccf1c53224249" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/74/91/7491bf4c3905a255930cf9fcce1ccf1c53224249" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/76/a9/76a999f8716052234837ad150bd58e5cfc22d92f" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/76/a9/76a999f8716052234837ad150bd58e5cfc22d92f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/7a/33/7a331e373468c995b557b7740dcdfd9fa080977d" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/7a/33/7a331e373468c995b557b7740dcdfd9fa080977d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/7b/34/7b34034e6bad26d0c03dc4bacf7551f5a68d908d" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/7b/34/7b34034e6bad26d0c03dc4bacf7551f5a68d908d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/80/33/803376ed00bfec845f11b972058349b191710992" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/80/33/803376ed00bfec845f11b972058349b191710992" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/87/47/87478980160b064fffaa8d00d0994181f2f8e5fc" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/87/47/87478980160b064fffaa8d00d0994181f2f8e5fc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/8a/4d/8a4d9a788b63f37e49e083fa8d447d2ce76353fc" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/8a/4d/8a4d9a788b63f37e49e083fa8d447d2ce76353fc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/8e/aa/8eaaff59f0edd2e1ea3dc9520dfa05d585eb46de" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/8e/aa/8eaaff59f0edd2e1ea3dc9520dfa05d585eb46de" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/90/c2/90c2b1eabda43feb715412eae45af2d644ded013" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/90/c2/90c2b1eabda43feb715412eae45af2d644ded013" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/a7/00/a700aa82ee7610425bac49cfaf2af37ab74cc559" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/a7/00/a700aa82ee7610425bac49cfaf2af37ab74cc559" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/b0/4a/b04a8d3b3022a01e297fe1f746acf0d07dced7c4" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/b0/4a/b04a8d3b3022a01e297fe1f746acf0d07dced7c4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/b1/b6/b1b6b61b6cd58fcbec08f9d00687d524901e8a6d" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/b1/b6/b1b6b61b6cd58fcbec08f9d00687d524901e8a6d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/b8/32/b832f5c759d95aebd7ae3edb721586494152f4e9" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/b8/32/b832f5c759d95aebd7ae3edb721586494152f4e9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/c2/4f/c24f2fa453ab9e0a295bcd4efa06ec13acfb13d8" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/c2/4f/c24f2fa453ab9e0a295bcd4efa06ec13acfb13d8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/c4/28/c42802a5cbf5833797aee59a2d358c2d9c03fdd2" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/c4/28/c42802a5cbf5833797aee59a2d358c2d9c03fdd2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/ca/da/cadafcda657abef13bdc8d1b7fa6cf24043502d2" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/ca/da/cadafcda657abef13bdc8d1b7fa6cf24043502d2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/ce/b1/ceb16a5881da3fc99a764086fecca72e8350043d" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/ce/b1/ceb16a5881da3fc99a764086fecca72e8350043d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/d0/1e/d01e8e95ac402ba16ad83ad09f6851991c3b6212" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/d0/1e/d01e8e95ac402ba16ad83ad09f6851991c3b6212" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/classes.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/classes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/ZNHtdEEerSsGRFV0ZSafXkW358VuxpR6zGGVK3zi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/e2NSQ4c2FAVAvaMdi5aT0LYroJityoY8IBGJSJtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/wP3VrryQUknWzvj5P4jp7ZeGpGMVYwzGaQ9a6yze" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/yNnYeWRwp3uKViSOj2LTVvu5j9UXkpQlTUN2QonG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/WillWritingPartnership/assets/php/Test.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/WillWritingPartnership/assets/php/Test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/WillWritingPartnership/pages/user.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/WillWritingPartnership/pages/user.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/d6/8a/d68a559338430a54328ffd5a3edf0c71c11fa72d" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/d6/8a/d68a559338430a54328ffd5a3edf0c71c11fa72d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/d8/30/d8309f72c5ef71597300658d1216f30e884830ed" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/d8/30/d8309f72c5ef71597300658d1216f30e884830ed" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/dc/19/dc19074e8894074b81e1f677add95d4e4aa7ce43" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/dc/19/dc19074e8894074b81e1f677add95d4e4aa7ce43" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/e6/39/e639368236c5189621d500a05e84b73d06683f81" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/e6/39/e639368236c5189621d500a05e84b73d06683f81" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/f4/2d/f42d95977875c2d89eee9fde4b8564a0302ef32c" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/f4/2d/f42d95977875c2d89eee9fde4b8564a0302ef32c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/f9/a7/f9a71f4e4eaa02c28742a65ef258acbf45c3a9c0" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/f9/a7/f9a71f4e4eaa02c28742a65ef258acbf45c3a9c0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/i1i00zZQzhfb7i6SXDvkvNEwutoW0inafQvSPFD2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/ygSanynzhkO4vVf8TiUnwpejHwtx5lRsTovrxVVt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/logs/system.log" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/system.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/WillWritingPartnership/assets/php/Test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/WillWritingPartnership/pages/calc.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/WillWritingPartnership/pages/calc.htm" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,21 +62,47 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="user.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/user.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
+            <state relative-caret-position="150">
               <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="calc.htm" pinned="false" current-in-tab="true">
+      <file leaf-file-name="calc.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/calc.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+            <state>
+              <caret selection-end-line="2" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="payment.htm" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/payment.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/partials/footer.htm">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Test.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/Test.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+              <folding>
+                <element signature="e#6#88#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,7 +128,7 @@
       <file leaf-file-name="theme.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/assets/css/theme.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="771">
+            <state relative-caret-position="8145">
               <caret line="543" selection-start-line="543" selection-end-line="543" />
             </state>
           </provider>
@@ -86,8 +146,10 @@
         <option value="$PROJECT_DIR$/themes/WillWritingPartnership/assets/css/theme.css" />
         <option value="$PROJECT_DIR$/themes/WillWritingPartnership/pages/user.htm" />
         <option value="$PROJECT_DIR$/themes/WillWritingPartnership/partials/calcresult.htm" />
-        <option value="$PROJECT_DIR$/themes/WillWritingPartnership/assets/php/Test.php" />
         <option value="$PROJECT_DIR$/themes/WillWritingPartnership/pages/calc.htm" />
+        <option value="$PROJECT_DIR$/themes/WillWritingPartnership/assets/php/Test.php" />
+        <option value="$PROJECT_DIR$/themes/WillWritingPartnership/pages/payment.htm" />
+        <option value="$PROJECT_DIR$/themes/WillWritingPartnership/pages/Test.php" />
       </list>
     </option>
   </component>
@@ -119,7 +181,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,14 +224,6 @@
               <item name="WillWritingPartnership" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="WillWritingPartnership" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="php" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="WillWritingPartnership" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WillWritingPartnership" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="WillWritingPartnership" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -191,6 +244,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -198,6 +252,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/themes/WillWritingPartnership/pages" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -222,34 +282,38 @@
       <option name="presentableId" value="Default" />
       <updated>1523352119807</updated>
       <workItem from="1523352121553" duration="6975000" />
+      <workItem from="1523620751661" duration="624000" />
+      <workItem from="1523629648005" duration="2314000" />
+      <workItem from="1523907506038" duration="423000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6975000" />
+    <option name="totallyTimeSpent" value="10336000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24097222" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,12 +323,131 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/createwill.htm">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/user.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/calc.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/Test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding>
+            <element signature="e#6#88#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/partials/calcresult.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/account.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/assets/css/theme.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="771">
+        <state relative-caret-position="8145">
+          <caret line="543" selection-start-line="543" selection-end-line="543" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/payment.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/user.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/partials/calcresult.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/account.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/assets/css/theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8145">
+          <caret line="543" selection-start-line="543" selection-end-line="543" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/calc.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/user.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/partials/calcresult.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/account.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/assets/css/theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8145">
+          <caret line="543" selection-start-line="543" selection-end-line="543" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/calc.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/assets/css/theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8145">
           <caret line="543" selection-start-line="543" selection-end-line="543" />
         </state>
       </provider>
@@ -276,13 +459,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/user.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/account.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -290,10 +466,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/assets/php/Test.php">
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/user.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/calc.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -304,10 +487,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/calc.htm">
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/partials/footer.htm">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/Test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        <state relative-caret-position="330">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding>
+            <element signature="e#6#88#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/payment.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
         </state>
       </provider>
     </entry>

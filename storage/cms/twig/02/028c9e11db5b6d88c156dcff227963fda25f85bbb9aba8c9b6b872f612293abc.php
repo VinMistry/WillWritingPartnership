@@ -17,7 +17,6 @@ class __TwigTemplate_03d2f58f41b0262f2f2744bed2599759900d73f6b61d7cf71edafe44c16
     {
         // line 1
         echo "<h1>Hello</h1>
-
 <form class=\"form-inline\" data-request=\"onTest\" data-request-update=\"calcresult: '#result'\">
     <input type=\"text\" name=\"value1\" value=\"\" class=\"form-control\" >
     <select name=\"operation\" class=\"form-control\">
@@ -34,11 +33,11 @@ class __TwigTemplate_03d2f58f41b0262f2f2744bed2599759900d73f6b61d7cf71edafe44c16
 
 <div id=\"result\">
     ";
-        // line 18
+        // line 17
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("calcresult"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 19
+        // line 18
         echo "</div>";
     }
 
@@ -54,13 +53,12 @@ class __TwigTemplate_03d2f58f41b0262f2f2744bed2599759900d73f6b61d7cf71edafe44c16
 
     public function getDebugInfo()
     {
-        return array (  42 => 19,  38 => 18,  19 => 1,);
+        return array (  41 => 18,  37 => 17,  19 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Twig_Source("<h1>Hello</h1>
-
 <form class=\"form-inline\" data-request=\"onTest\" data-request-update=\"calcresult: '#result'\">
     <input type=\"text\" name=\"value1\" value=\"\" class=\"form-control\" >
     <select name=\"operation\" class=\"form-control\">
