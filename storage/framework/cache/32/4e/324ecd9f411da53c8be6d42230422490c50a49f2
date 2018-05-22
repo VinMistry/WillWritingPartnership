@@ -1,4 +1,4 @@
-1523907939a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:3117:"description = "Default layout"
+1527004246a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:3855:"description = "Default layout"
 ==
 <!DOCTYPE html>
 <html>
@@ -20,6 +20,21 @@
         <!-- Header -->
 
         <header id="layout-header">
+            {% if user %}
+            <div class="buttonSpace">
+                <div class="text-lg-right">
+                    <a href=" {{ 'user'|page }}"> <button  class="btn btn-primary">Account <i class="fa fa-user"></i></button></a>
+                </div>
+            </div>
+            {% else %}
+            <div class="buttonSpace">
+                <div class="text-lg-right">
+                    <a href=" {{ 'user'|page }}"> <button  class="btn btn-primary">Login <i class="fa fa-user"></i></button></a>
+
+                    <a href=" {{ 'account'|page }}"><button  class="btn btn-primary">Register <i class="fa fa-user-plus"></i></button></a>
+                </div>
+            </div>
+            {% endif %}
             {% partial "header" %}
         </header>
 
@@ -67,7 +82,7 @@
         {% scripts %}
 
     </body>
-</html>";s:5:"mtime";i:1516291236;s:6:"markup";s:3083:"<!DOCTYPE html>
+</html>";s:5:"mtime";i:1526554145;s:6:"markup";s:3819:"<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
@@ -87,6 +102,21 @@
         <!-- Header -->
 
         <header id="layout-header">
+            {% if user %}
+            <div class="buttonSpace">
+                <div class="text-lg-right">
+                    <a href=" {{ 'user'|page }}"> <button  class="btn btn-primary">Account <i class="fa fa-user"></i></button></a>
+                </div>
+            </div>
+            {% else %}
+            <div class="buttonSpace">
+                <div class="text-lg-right">
+                    <a href=" {{ 'user'|page }}"> <button  class="btn btn-primary">Login <i class="fa fa-user"></i></button></a>
+
+                    <a href=" {{ 'account'|page }}"><button  class="btn btn-primary">Register <i class="fa fa-user-plus"></i></button></a>
+                </div>
+            </div>
+            {% endif %}
             {% partial "header" %}
         </header>
 

@@ -53,17 +53,7 @@ class __TwigTemplate_0efdfd6e6311eba7c0d238f19cdb129aacc33bb7631d8ccdf54f1a177f3
         echo "\" ><button  class=\"btn btn-primary\">Start DIY Will</button></a>
     </div>
 </section>
-<section class=\"section-padding\">
-    <div class=\"container \">
-        <form action=\"\">
-            <div class=\"form-group\">
-                <label>Mobile Number</label>
-                <input type=\"tel\" id=\"mobile\" name=\"mobile\" class=\"form-control\" placeholder=\"Mobile Number\" />
-                <button type=\"submit\">Sick</button>
-            </div>
-        </form>
-    </div>
-</section>
+<hr>
 <section class=\"section-padding\">
     <div class=\"container\">
         <a data-request=\"onLogout\" data-request-data=\"redirect: '/account'\"><button  class=\"btn btn-primary\">Sign out</button></a>
@@ -109,17 +99,7 @@ class __TwigTemplate_0efdfd6e6311eba7c0d238f19cdb129aacc33bb7631d8ccdf54f1a177f3
         <a href=\"{{ 'createwill'|page }}\" ><button  class=\"btn btn-primary\">Start DIY Will</button></a>
     </div>
 </section>
-<section class=\"section-padding\">
-    <div class=\"container \">
-        <form action=\"\">
-            <div class=\"form-group\">
-                <label>Mobile Number</label>
-                <input type=\"tel\" id=\"mobile\" name=\"mobile\" class=\"form-control\" placeholder=\"Mobile Number\" />
-                <button type=\"submit\">Sick</button>
-            </div>
-        </form>
-    </div>
-</section>
+<hr>
 <section class=\"section-padding\">
     <div class=\"container\">
         <a data-request=\"onLogout\" data-request-data=\"redirect: '/account'\"><button  class=\"btn btn-primary\">Sign out</button></a>

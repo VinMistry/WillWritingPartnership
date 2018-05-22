@@ -1,4 +1,4 @@
-1523907939a:1:{s:8:"user.htm";a:11:{s:8:"fileName";s:8:"user.htm";s:7:"content";s:1387:"title = "Restricted page"
+1527004245a:1:{s:8:"user.htm";a:11:{s:8:"fileName";s:8:"user.htm";s:7:"content";s:991:"title = "Restricted page"
 url = "/users"
 layout = "default"
 description = "User Area"
@@ -30,23 +30,13 @@ redirect = "home"
         <a href="{{ 'createwill'|page }}" ><button  class="btn btn-primary">Start DIY Will</button></a>
     </div>
 </section>
-<section class="section-padding">
-    <div class="container ">
-        <form action="">
-            <div class="form-group">
-                <label>Mobile Number</label>
-                <input type="tel" id="mobile" name="mobile" class="form-control" placeholder="Mobile Number" />
-                <button type="submit">Sick</button>
-            </div>
-        </form>
-    </div>
-</section>
+<hr>
 <section class="section-padding">
     <div class="container">
         <a data-request="onLogout" data-request-data="redirect: '/account'"><button  class="btn btn-primary">Sign out</button></a>
     </div>
 </section>
-";s:5:"mtime";i:1523357031;s:6:"markup";s:1224:"<div class="container">
+";s:5:"mtime";i:1526554242;s:6:"markup";s:828:"<div class="container">
     {% if user %}
     <h1>Hello {{ user.name }}</h1>
     {% else %}
@@ -67,17 +57,7 @@ redirect = "home"
         <a href="{{ 'createwill'|page }}" ><button  class="btn btn-primary">Start DIY Will</button></a>
     </div>
 </section>
-<section class="section-padding">
-    <div class="container ">
-        <form action="">
-            <div class="form-group">
-                <label>Mobile Number</label>
-                <input type="tel" id="mobile" name="mobile" class="form-control" placeholder="Mobile Number" />
-                <button type="submit">Sick</button>
-            </div>
-        </form>
-    </div>
-</section>
+<hr>
 <section class="section-padding">
     <div class="container">
         <a data-request="onLogout" data-request-data="redirect: '/account'"><button  class="btn btn-primary">Sign out</button></a>

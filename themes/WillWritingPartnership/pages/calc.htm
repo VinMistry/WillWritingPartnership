@@ -27,7 +27,15 @@ layout = "default"
             $ans = $this['answer'];
             break;
         }
-       $result = pg_query($dbconn3,"INSERT INTO Math (value) VALUES ($ans)");
+
+        DB::table('math')->insert(
+            [
+                    'value' => $ans
+            ]
+        );
+      $t = Auth::getUser()->id;
+      $this['test'] = $t;
+//    $result = pg_query($dbconn3,"INSERT INTO Math (value) VALUES ($ans)");
     }
 ?>
 ==

@@ -59,10 +59,40 @@ class __TwigTemplate_62ac91eac18585f6365a543180fe4ab65b2cb7c41a3c22284eb07bfc6f6
         <header id=\"layout-header\">
             ";
         // line 21
+        if (($context["user"] ?? null)) {
+            // line 22
+            echo "            <div class=\"buttonSpace\">
+                <div class=\"text-lg-right\">
+                    <a href=\" ";
+            // line 24
+            echo $this->env->getExtension('Cms\Twig\Extension')->pageFilter("user");
+            echo "\"> <button  class=\"btn btn-primary\">Account <i class=\"fa fa-user\"></i></button></a>
+                </div>
+            </div>
+            ";
+        } else {
+            // line 28
+            echo "            <div class=\"buttonSpace\">
+                <div class=\"text-lg-right\">
+                    <a href=\" ";
+            // line 30
+            echo $this->env->getExtension('Cms\Twig\Extension')->pageFilter("user");
+            echo "\"> <button  class=\"btn btn-primary\">Login <i class=\"fa fa-user\"></i></button></a>
+
+                    <a href=\" ";
+            // line 32
+            echo $this->env->getExtension('Cms\Twig\Extension')->pageFilter("account");
+            echo "\"><button  class=\"btn btn-primary\">Register <i class=\"fa fa-user-plus\"></i></button></a>
+                </div>
+            </div>
+            ";
+        }
+        // line 36
+        echo "            ";
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("header"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 22
+        // line 37
         echo "        </header>
 
         <div class=\"float-sm\">
@@ -87,19 +117,19 @@ class __TwigTemplate_62ac91eac18585f6365a543180fe4ab65b2cb7c41a3c22284eb07bfc6f6
         <!-- Content -->
         <section id=\"layout-content\">
             ";
-        // line 45
+        // line 60
         echo $this->env->getExtension('Cms\Twig\Extension')->pageFunction();
-        // line 46
+        // line 61
         echo "        </section>
 
         <!-- Footer -->
         <footer id=\"layout-footer\">
             ";
-        // line 50
+        // line 65
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("footer"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 51
+        // line 66
         echo "        </footer>
 
         <!-- Scripts -->
@@ -110,28 +140,28 @@ class __TwigTemplate_62ac91eac18585f6365a543180fe4ab65b2cb7c41a3c22284eb07bfc6f6
         <script src=\"https://use.fontawesome.com/9996439db5.js\"></script>
         <script src=\"//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js\"></script>
         <script src=\"";
-        // line 60
+        // line 75
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/javascript/custom.js");
         echo "\"></script>
         <script src=\"";
-        // line 61
+        // line 76
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/javascript/app.js");
         echo "\"></script>
 
 
         ";
-        // line 64
+        // line 79
         echo '<script src="'. Request::getBasePath()
                 .'/modules/system/assets/js/framework.js"></script>'.PHP_EOL;
         echo '<script src="'. Request::getBasePath()
                     .'/modules/system/assets/js/framework.extras.js"></script>'.PHP_EOL;
         echo '<link rel="stylesheet" property="stylesheet" href="'. Request::getBasePath()
                     .'/modules/system/assets/css/framework.extras.css">'.PHP_EOL;
-        // line 65
+        // line 80
         echo "        ";
         echo $this->env->getExtension('Cms\Twig\Extension')->assetsFunction('js');
         echo $this->env->getExtension('Cms\Twig\Extension')->displayBlock('scripts');
-        // line 66
+        // line 81
         echo "
     </body>
 </html>";
@@ -149,7 +179,7 @@ class __TwigTemplate_62ac91eac18585f6365a543180fe4ab65b2cb7c41a3c22284eb07bfc6f6
 
     public function getDebugInfo()
     {
-        return array (  135 => 66,  131 => 65,  124 => 64,  118 => 61,  114 => 60,  103 => 51,  99 => 50,  93 => 46,  91 => 45,  66 => 22,  62 => 21,  52 => 14,  47 => 13,  44 => 12,  40 => 11,  33 => 7,  29 => 6,  25 => 5,  19 => 1,);
+        return array (  165 => 81,  161 => 80,  154 => 79,  148 => 76,  144 => 75,  133 => 66,  129 => 65,  123 => 61,  121 => 60,  96 => 37,  91 => 36,  84 => 32,  79 => 30,  75 => 28,  68 => 24,  64 => 22,  62 => 21,  52 => 14,  47 => 13,  44 => 12,  40 => 11,  33 => 7,  29 => 6,  25 => 5,  19 => 1,);
     }
 
     public function getSourceContext()
@@ -174,6 +204,21 @@ class __TwigTemplate_62ac91eac18585f6365a543180fe4ab65b2cb7c41a3c22284eb07bfc6f6
         <!-- Header -->
 
         <header id=\"layout-header\">
+            {% if user %}
+            <div class=\"buttonSpace\">
+                <div class=\"text-lg-right\">
+                    <a href=\" {{ 'user'|page }}\"> <button  class=\"btn btn-primary\">Account <i class=\"fa fa-user\"></i></button></a>
+                </div>
+            </div>
+            {% else %}
+            <div class=\"buttonSpace\">
+                <div class=\"text-lg-right\">
+                    <a href=\" {{ 'user'|page }}\"> <button  class=\"btn btn-primary\">Login <i class=\"fa fa-user\"></i></button></a>
+
+                    <a href=\" {{ 'account'|page }}\"><button  class=\"btn btn-primary\">Register <i class=\"fa fa-user-plus\"></i></button></a>
+                </div>
+            </div>
+            {% endif %}
             {% partial \"header\" %}
         </header>
 

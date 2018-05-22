@@ -1,11 +1,4 @@
-1523907939a:1:{s:10:"header.htm";a:5:{s:8:"fileName";s:10:"header.htm";s:7:"content";s:1959:"<!-- Nav -->
-<div class=" logInButton">
-    <div class="text-lg-right">
-        <a href=" {{ 'account'|page }}"> <button  class="btn btn-primary">Login <i class="fa fa-user"></i></button></a>
-
-        <a href=" {{ 'account'|page }}"><button  class="btn btn-primary">Register <i class="fa fa-user-plus"></i></button></a>
-    </div>
-</div>
+1527004247a:1:{s:10:"header.htm";a:5:{s:8:"fileName";s:10:"header.htm";s:7:"content";s:1634:"<!-- Nav -->
 <div class="navigation">
     <ul>
         <div class="">
@@ -47,14 +40,7 @@
     </div>
 </div>
 </div>
-";s:5:"mtime";i:1522944098;s:6:"markup";s:1958:"<!-- Nav -->
-<div class=" logInButton">
-    <div class="text-lg-right">
-        <a href=" {{ 'account'|page }}"> <button  class="btn btn-primary">Login <i class="fa fa-user"></i></button></a>
-
-        <a href=" {{ 'account'|page }}"><button  class="btn btn-primary">Register <i class="fa fa-user-plus"></i></button></a>
-    </div>
-</div>
+";s:5:"mtime";i:1526554067;s:6:"markup";s:1633:"<!-- Nav -->
 <div class="navigation">
     <ul>
         <div class="">

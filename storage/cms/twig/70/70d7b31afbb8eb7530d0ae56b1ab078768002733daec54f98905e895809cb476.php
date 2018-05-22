@@ -23,10 +23,14 @@ class __TwigTemplate_91c2b6738eb3373f2698e0ee2fddeda9802c848f30f140e8b140c710fc1
             // line 3
             echo twig_escape_filter($this->env, ($context["answer"] ?? null), "html", null, true);
             echo "</span>
+    ";
+            // line 4
+            echo twig_escape_filter($this->env, ($context["test"] ?? null), "html", null, true);
+            echo "
 </span>
 ";
         } else {
-            // line 6
+            // line 7
             echo "<span class=\"text-muted\">
     Click the go button to find answer.
 </span>
@@ -46,7 +50,7 @@ class __TwigTemplate_91c2b6738eb3373f2698e0ee2fddeda9802c848f30f140e8b140c710fc1
 
     public function getDebugInfo()
     {
-        return array (  30 => 6,  24 => 3,  21 => 2,  19 => 1,);
+        return array (  34 => 7,  28 => 4,  24 => 3,  21 => 2,  19 => 1,);
     }
 
     public function getSourceContext()
@@ -54,6 +58,7 @@ class __TwigTemplate_91c2b6738eb3373f2698e0ee2fddeda9802c848f30f140e8b140c710fc1
         return new Twig_Source("{% if answer %}
 <span class=\"lead\">
     The result is <span class=\"label label-success\">{{ answer }}</span>
+    {{ test }}
 </span>
 {% else %}
 <span class=\"text-muted\">

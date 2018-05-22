@@ -2,11 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8127ddef-a9a4-47db-ac3b-22fdd95ebd7f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/themes/WillWritingPartnership/pages/Test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/WillWritingPartnership/pages/payment.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/paymentSystem/octPay/controllers/OctPayer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/3d/Plugin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/3d/components/ThreeDPayments.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/3d/components/payments/default.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/WillWritingPartnership/payments/Plugin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/WillWritingPartnership/payments/components/LastWill.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/WillWritingPartnership/payments/components/PaymentForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/WillWritingPartnership/payments/components/lastwill/createwill.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/WillWritingPartnership/payments/components/lastwill/default.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/WillWritingPartnership/payments/components/lastwill/termsAndCon.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/WillWritingPartnership/payments/components/paymentform/default.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/WillWritingPartnership/payments/plugin.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/WillWritingPartnership/assets/php/PaymentOctober.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/WillWritingPartnership/pages/funeralArrangement.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/WillWritingPartnership/pages/lastWill1.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/WillWritingPartnership/pages/profExecutors.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/WillWritingPartnership/pages/reserveBeneficiary.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/WillWritingPartnership/pages/residualEst.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/WillWritingPartnership/pages/termsAndCon.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/WillWritingPartnership/partials/created.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/WillWritingPartnership/partials/paymentDone.htm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/33/f3/createwill.htm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/54/69/account.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/54/69/account.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/54/b3/calcresult.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/54/b3/calcresult.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/5a/62/footer.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/5a/62/footer.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/7f/1f/index.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/7f/1f/index.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/85/c2/footer.htm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/af/42/payment.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/af/42/payment.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/b1/b3/header.htm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/b2/07/404.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/b2/07/404.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/b5/8c/header.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/b5/8c/header.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/b6/9c/wills.htm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/b6/e1/default.htm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/b7/13/default.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/b7/13/default.htm.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/cms/cache/c2/d9/calc.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/c2/d9/calc.htm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/cms/twig/02/028c9e11db5b6d88c156dcff227963fda25f85bbb9aba8c9b6b872f612293abc.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/twig/02/028c9e11db5b6d88c156dcff227963fda25f85bbb9aba8c9b6b872f612293abc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/c3/8b/addTestators.htm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/c7/8f/user.htm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/d3/19/user.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/d3/19/user.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/d3/b5/index.htm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/df/ca/account.htm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/e9/b2/404.htm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/0b/0bc9e9d237e42b3a56e78c5c432040ee3c77988de9823ecf27530d9bd0a09432.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/1d/1df66019b68aa289ef534b531da7eb5aade84c1f55c2f39f27b17df1a7d82983.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/2f/2feb248d7174996d56a20c3e37c3497a33549ae72eb0da8980805ea31ef68984.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/twig/2f/2feb248d7174996d56a20c3e37c3497a33549ae72eb0da8980805ea31ef68984.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/32/320bb3c216d8add10329d70b09e79eaec00c2b660803343f7d0acec86f3574e1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/3c/3ce81ec40667019b8aa261d01bf02ae94940930ba7a0484aeeb1b07892212543.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/42/426d27e7de1167fdcf316b9095a49e0e098aba615c660503623039c5dff22f2a.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/44/44b0b1df414a35189588d20a5cd666b77a10c679908ad0173e6d3f04eaadbec2.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/twig/44/44b0b1df414a35189588d20a5cd666b77a10c679908ad0173e6d3f04eaadbec2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/45/45dfc42354b577860f3f38a2a40022f7e5db5d0ac859ca73ab75a15639bd3b91.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/4c/4c2346eeeacfbc7ef5c893978e9658af8a2673b1baa5b415460d82cf0d02f4cc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/52/528b16b1cdd664d1c8b5aa0e811a202f117c7ead182b450a21772431e78ad542.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/6a/6af3f62c6b64ab1dfe1a4224111fa6e9bc54c069ce3f854441cbf363105ee69c.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/70/70d7b31afbb8eb7530d0ae56b1ab078768002733daec54f98905e895809cb476.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/twig/70/70d7b31afbb8eb7530d0ae56b1ab078768002733daec54f98905e895809cb476.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/8b/8b5d2ee12995e848d9e6686b40b846a42f381285085887fd5089be1a75769097.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/8d/8d6611b5add11cd660aec51471b0b0825e6509860a7de8029729053a7b299de6.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/9c/9c75990d87c84659291b12f1fac71ad10e5b750640b1de6618f950448eef502c.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/9f/9fc43cc643090a22f5cba08d37b3eeb0a1793403c62175e28b99d7342d9436af.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/a3/a3f775243dd4bc391d0fd8d40d009ad53e82edcbf17d173977920c8976883c27.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/twig/a3/a3f775243dd4bc391d0fd8d40d009ad53e82edcbf17d173977920c8976883c27.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/c1/c1d1f945ba5eb6de881783f9a8c379e246080359fe2b172bfece570f3311d347.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/c3/c311a1c8bdd1e1f39625bd825eb4f9b855bec25aa0aaff26550846c965293aae.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/dc/dcef436b435a84cb669b69cc60b8bbbb9bb844a620ac545a15e652cf546c8b84.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/e3/e32a86b001980742d8cf0ddab4fce2f76aed4104c9689eac0e5ee67c0c30f6f1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/e3/e39e558329c185d2bbdc72db99b8b41c0f86a416b88190a866ffbc9ff6825127.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/f1/f15f4cd7e26d1a8ccb502b1467d6fa35ae6da7e3174ba48c460884295b559ee0.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/twig/f1/f15f4cd7e26d1a8ccb502b1467d6fa35ae6da7e3174ba48c460884295b559ee0.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/00/88/00880e5f381083b8cba38d60260f3bfce6e63e8a" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/00/88/00880e5f381083b8cba38d60260f3bfce6e63e8a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/03/1d/031d4cfa6c1b6943ca053313d2f0ab88961690c3" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/03/1d/031d4cfa6c1b6943ca053313d2f0ab88961690c3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/07/13/071302ef5122d34d1695311ae3f37a3497816753" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/07/13/071302ef5122d34d1695311ae3f37a3497816753" afterDir="false" />
@@ -14,45 +74,114 @@
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/0e/53/0e5306dd5966c79beb815c0b526dcdd3c56c679b" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/0e/53/0e5306dd5966c79beb815c0b526dcdd3c56c679b" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/11/de/11de31e1eabb2682cf62ee9c9ccb0630f1019006" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/11/de/11de31e1eabb2682cf62ee9c9ccb0630f1019006" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/1a/56/1a561de7d301781edab4e1a7857d6be6e199d3b3" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/1a/56/1a561de7d301781edab4e1a7857d6be6e199d3b3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/22/43/2243f500ae1632e1e609a9d4d08e7bad65800071" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/22/43/2243f500ae1632e1e609a9d4d08e7bad65800071" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/22/77/2277379ca12b1165358396336dc49df0dfff6749" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/22/94/22944a2f9d2886b651936273d26378b3da7cb8ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/25/14/2514149e89fc840e6c711c0d095ae14f78f1bac9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/28/99/2899b6cade9473fa9fe07696827b28dc1aa16cc4" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/2e/a6/2ea6e4f8247641607404d18fb5a91f6ecd127a5d" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/2e/a6/2ea6e4f8247641607404d18fb5a91f6ecd127a5d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/32/4e/324ecd9f411da53c8be6d42230422490c50a49f2" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/32/4e/324ecd9f411da53c8be6d42230422490c50a49f2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/36/08/3608a21c251fe3821d32131c6292c35024f4ab5c" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/36/08/3608a21c251fe3821d32131c6292c35024f4ab5c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/36/32/3632c68269fa8b206cd70955091be0482d14ab8d" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/36/32/3632c68269fa8b206cd70955091be0482d14ab8d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/36/d8/36d8e4af18887bc525041291c3bdccea184cd1ff" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/36/d8/36d8e4af18887bc525041291c3bdccea184cd1ff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/38/9e/389ec29b1c1f45f41108009770b0904c71b362d9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/39/87/39873ce27ff1c2615f40bad73b5041372b83e150" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/39/87/39873ce27ff1c2615f40bad73b5041372b83e150" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/3f/a8/3fa8c7ca79b6cdc959f4747de8667be28b7190a6" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/3f/a8/3fa8c7ca79b6cdc959f4747de8667be28b7190a6" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/42/8b/428b2a39f5d0abd4199e7e55682ecf6238d5e4ba" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/42/8b/428b2a39f5d0abd4199e7e55682ecf6238d5e4ba" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/43/f7/43f785c093dbe658f90fcd80dcb1a38023a18009" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/44/1c/441c3c44cc304723e3434c43d399e62cbbe3842e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/4f/7d/4f7d2b7878cc3b661c57c5c0443313cb9ecbbbed" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/53/b4/53b4d87d20b86f4e777fcc35964649f6a0e77bea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/59/12/5912d8ecedf6a8e80c2748a0189184c4eaf57db7" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/5a/6e/5a6e3764ca5a7a1600da0271b0e5870ce79d4070" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/5a/6e/5a6e3764ca5a7a1600da0271b0e5870ce79d4070" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/66/65/666582ffea28796aac87443dbbc6420b7c6df7cd" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/66/65/666582ffea28796aac87443dbbc6420b7c6df7cd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/67/3f/673f4e1084bf26b35176e95fad8e6badcb7b517d" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/6c/b5/6cb5d35122e3cc7de906baa757068b0970b1f9a5" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/6c/b5/6cb5d35122e3cc7de906baa757068b0970b1f9a5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/6e/a4/6ea435954cf9e206ae0e396c213751fe292b3a69" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/72/4d/724d64623b82cdd367a46a1a3611b8fce75faedf" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/72/4d/724d64623b82cdd367a46a1a3611b8fce75faedf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/72/5c/725cc89c1f8079e72400a4f7a074f89b0fc7dea3" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/72/5c/725cc89c1f8079e72400a4f7a074f89b0fc7dea3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/72/d6/72d6ebf3d16674fee7d5fbad10a93138f517376f" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/72/d6/72d6ebf3d16674fee7d5fbad10a93138f517376f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/74/68/74685cb373ef973cac3e53f2c911e4caa3820b5b" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/74/91/7491bf4c3905a255930cf9fcce1ccf1c53224249" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/74/91/7491bf4c3905a255930cf9fcce1ccf1c53224249" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/76/a9/76a999f8716052234837ad150bd58e5cfc22d92f" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/76/a9/76a999f8716052234837ad150bd58e5cfc22d92f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/77/47/7747f9bc1caf480299655eec13c96d1924ef4513" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/77/61/77616e1c5e0d202cb4cf522bddafaebf56f27660" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/77/61/77616e1c5e0d202cb4cf522bddafaebf56f27660" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/7a/33/7a331e373468c995b557b7740dcdfd9fa080977d" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/7a/33/7a331e373468c995b557b7740dcdfd9fa080977d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/7b/34/7b34034e6bad26d0c03dc4bacf7551f5a68d908d" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/7b/34/7b34034e6bad26d0c03dc4bacf7551f5a68d908d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/7f/18/7f1858f1486f09199a00f1b4e380841eeafbaa61" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/7f/18/7f1858f1486f09199a00f1b4e380841eeafbaa61" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/80/33/803376ed00bfec845f11b972058349b191710992" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/80/33/803376ed00bfec845f11b972058349b191710992" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/80/c2/80c2bdb137936b798bd6c4f15697b3a09701a4ac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/81/4d/814d4975e40ea568da7c60f95c1d5e2236e0d073" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/83/5a/835ab0b10f2d236a7312561c8a6c09f89c46105a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/85/bc/85bc32aaad1e998274c1645ceb8b54700f346581" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/87/47/87478980160b064fffaa8d00d0994181f2f8e5fc" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/87/47/87478980160b064fffaa8d00d0994181f2f8e5fc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/8a/4d/8a4d9a788b63f37e49e083fa8d447d2ce76353fc" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/8a/4d/8a4d9a788b63f37e49e083fa8d447d2ce76353fc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/8d/b8/8db89ba30797d974a7003df5f1176f010963bbca" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/8e/aa/8eaaff59f0edd2e1ea3dc9520dfa05d585eb46de" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/8e/aa/8eaaff59f0edd2e1ea3dc9520dfa05d585eb46de" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/90/c2/90c2b1eabda43feb715412eae45af2d644ded013" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/90/c2/90c2b1eabda43feb715412eae45af2d644ded013" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/91/9a/919ada8b645a833a939a1d612ac1efa5022720a1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/95/d8/95d80b2cd42d0403bb73421d6c387d475bb6d3d4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/97/37/9737833e426f53b3dcb4d98fdcb68c76762765de" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/97/37/9737833e426f53b3dcb4d98fdcb68c76762765de" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/97/39/9739b3a900e31d6b7467fc7f7b244804b462b524" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/9a/e8/9ae8ba54c10c58926a7502abb5f7ba6ba6d19951" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/9d/f4/9df45ded3b21aaef0ef52cbcbf15ab9570d7f57a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/9e/c9/9ec9a09a1bf009b843a21bd6208efdd2714c0a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/a0/c9/a0c910eb995ad1e9281e5bb05187281e039e242f" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/a0/c9/a0c910eb995ad1e9281e5bb05187281e039e242f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/a2/cd/a2cd6631966d64b6345645240c1f89671c1087f0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/a7/00/a700aa82ee7610425bac49cfaf2af37ab74cc559" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/a7/00/a700aa82ee7610425bac49cfaf2af37ab74cc559" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/a7/a6/a7a64667d1503597e8a7c42fd2c5100e989e6001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/af/1f/af1f57d27dff8c8677cce75c38629574314da2b9" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/b0/4a/b04a8d3b3022a01e297fe1f746acf0d07dced7c4" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/b0/4a/b04a8d3b3022a01e297fe1f746acf0d07dced7c4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/b1/b6/b1b6b61b6cd58fcbec08f9d00687d524901e8a6d" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/b1/b6/b1b6b61b6cd58fcbec08f9d00687d524901e8a6d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/b7/c1/b7c13a739fa75861bd638162da5b7ee1b6a34cb8" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/b8/32/b832f5c759d95aebd7ae3edb721586494152f4e9" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/b8/32/b832f5c759d95aebd7ae3edb721586494152f4e9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/bf/9c/bf9c079ded0f0958ecc946bbbcd18e9a39d84aaa" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/c2/4f/c24f2fa453ab9e0a295bcd4efa06ec13acfb13d8" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/c2/4f/c24f2fa453ab9e0a295bcd4efa06ec13acfb13d8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/c2/90/c290e39371098d068ca269c1c2bbd7f15204637d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/c2/d5/c2d54296b9afff77461ddc68f6147c0b5df09a91" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/c3/f8/c3f82a7aec576624978cc7b3e051bbbb4e17fa20" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/c3/f8/c3f82a7aec576624978cc7b3e051bbbb4e17fa20" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/c4/28/c42802a5cbf5833797aee59a2d358c2d9c03fdd2" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/c4/28/c42802a5cbf5833797aee59a2d358c2d9c03fdd2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/c5/0c/c50c0460751f5269822b5645a04c38e2f7ecbe12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/c8/15/c81566ef8f125a5cc83f43318b8b995363f39877" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/ca/54/ca543128ae531893d5896a593d8e7e8e8d3e2b90" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/ca/da/cadafcda657abef13bdc8d1b7fa6cf24043502d2" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/ca/da/cadafcda657abef13bdc8d1b7fa6cf24043502d2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/ce/b1/ceb16a5881da3fc99a764086fecca72e8350043d" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/ce/b1/ceb16a5881da3fc99a764086fecca72e8350043d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/d0/1e/d01e8e95ac402ba16ad83ad09f6851991c3b6212" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/d0/1e/d01e8e95ac402ba16ad83ad09f6851991c3b6212" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/d2/bf/d2bfa1437aba00dadecca2b56617050d8f711997" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/d2/bf/d2bfa1437aba00dadecca2b56617050d8f711997" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/d6/8a/d68a559338430a54328ffd5a3edf0c71c11fa72d" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/d6/8a/d68a559338430a54328ffd5a3edf0c71c11fa72d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/d8/30/d8309f72c5ef71597300658d1216f30e884830ed" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/d8/30/d8309f72c5ef71597300658d1216f30e884830ed" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/d9/26/d9262f29ff44e0afb360c6e4e45e1504aac63b0c" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/d9/26/d9262f29ff44e0afb360c6e4e45e1504aac63b0c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/dc/19/dc19074e8894074b81e1f677add95d4e4aa7ce43" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/dc/19/dc19074e8894074b81e1f677add95d4e4aa7ce43" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/dd/3e/dd3e69c64b404c89047f2eaf6a6be2832831eb2a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/e1/1e/e11e3aebfe9af3601fa445895a2e296fd51ed6d9" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/e6/39/e639368236c5189621d500a05e84b73d06683f81" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/e6/39/e639368236c5189621d500a05e84b73d06683f81" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/e6/f4/e6f4985a385f966b92783cf18d1f1ad77e379636" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/e7/32/e732a79331d9cd52df460b2aeb565108c5ec9163" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/ed/5e/ed5ea5fd8932b45db0b8ae06ab7aa106a4a21eb0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/ef/1d/ef1db56703df0fb0e5929efe7c17e24964f25687" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/ef/1d/ef1db56703df0fb0e5929efe7c17e24964f25687" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/f0/74/f074255a4032af704506f05543fe27e3999bca25" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/f4/2d/f42d95977875c2d89eee9fde4b8564a0302ef32c" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/f4/2d/f42d95977875c2d89eee9fde4b8564a0302ef32c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/f6/31/f631b77b1214c4f1d66fb267924606dc9c464e06" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/f7/bc/f7bcda2e08f6a73e0e22a101c05f7943d99822cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/f8/32/f83205e574f6d3088b94aa497ecca687a2f12e04" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/f9/a7/f9a71f4e4eaa02c28742a65ef258acbf45c3a9c0" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/f9/a7/f9a71f4e4eaa02c28742a65ef258acbf45c3a9c0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/i1i00zZQzhfb7i6SXDvkvNEwutoW0inafQvSPFD2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/ygSanynzhkO4vVf8TiUnwpejHwtx5lRsTovrxVVt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/classes.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/classes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/3ePtWK4iOEZb56sPRV41gqfgcGcWQJdHv2bdLgjU" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/81vB3c69b21I2eH3ASIYFDeMJmMTkQndcGniq5U4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/CiNEOoEgmw7lDjsA3T9094pcBpaXwcZt3AQkpO9M" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/LF5UGhouMVOb7XtUvUffME92SMWX6DYkp4mgxdZl" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/logs/system.log" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/system.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/WillWritingPartnership/assets/php/Test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/WillWritingPartnership/assets/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/WillWritingPartnership/assets/css/theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/WillWritingPartnership/assets/javascript/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/WillWritingPartnership/assets/javascript/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/WillWritingPartnership/layouts/default.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/WillWritingPartnership/layouts/default.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/WillWritingPartnership/pages/account.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/WillWritingPartnership/pages/account.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/WillWritingPartnership/pages/addTestators.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/WillWritingPartnership/pages/addTestators.htm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/WillWritingPartnership/pages/calc.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/WillWritingPartnership/pages/calc.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/WillWritingPartnership/pages/createwill.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/WillWritingPartnership/pages/createwill.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/WillWritingPartnership/pages/payment.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/WillWritingPartnership/pages/payment.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/WillWritingPartnership/pages/user.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/WillWritingPartnership/pages/user.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/WillWritingPartnership/partials/calcresult.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/WillWritingPartnership/partials/calcresult.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/WillWritingPartnership/partials/header.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/WillWritingPartnership/partials/header.htm" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -63,78 +192,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="user.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/user.htm">
+      <file leaf-file-name="PaymentForm.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/plugins/WillWritingPartnership/payments/components/PaymentForm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="calc.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/calc.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="2" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="payment.htm" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/payment.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/partials/footer.htm">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="Test.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/Test.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="1845">
+              <caret line="123" column="19" selection-start-line="123" selection-start-column="19" selection-end-line="123" selection-end-column="19" />
               <folding>
                 <element signature="e#6#88#0#PHP" expanded="true" />
+                <element signature="e#144#174#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="calcresult.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/partials/calcresult.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="account.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/account.htm">
+      <file leaf-file-name="paymentDone.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/partials/paymentDone.htm">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="17" />
+              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="theme.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/assets/css/theme.css">
+      <file leaf-file-name="default.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/WillWritingPartnership/payments/components/paymentform/default.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8145">
-              <caret line="543" selection-start-line="543" selection-end-line="543" />
+            <state relative-caret-position="15">
+              <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="payment.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/payment.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2580">
+              <caret line="172" selection-start-line="172" selection-end-line="177" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>\</find>
+      <find>logIn</find>
+      <find>id</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>name</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -142,14 +258,48 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/themes/WillWritingPartnership/pages/account.htm" />
-        <option value="$PROJECT_DIR$/themes/WillWritingPartnership/assets/css/theme.css" />
-        <option value="$PROJECT_DIR$/themes/WillWritingPartnership/pages/user.htm" />
-        <option value="$PROJECT_DIR$/themes/WillWritingPartnership/partials/calcresult.htm" />
-        <option value="$PROJECT_DIR$/themes/WillWritingPartnership/pages/calc.htm" />
         <option value="$PROJECT_DIR$/themes/WillWritingPartnership/assets/php/Test.php" />
-        <option value="$PROJECT_DIR$/themes/WillWritingPartnership/pages/payment.htm" />
         <option value="$PROJECT_DIR$/themes/WillWritingPartnership/pages/Test.php" />
+        <option value="$PROJECT_DIR$/plugins/3d/Plugin.php" />
+        <option value="$PROJECT_DIR$/plugins/3d/components/ThreeDPayments.php" />
+        <option value="$PROJECT_DIR$/plugins/3d/components/payments/default.htm" />
+        <option value="$PROJECT_DIR$/modules/paymentSystem/octPay/controllers/OctPay.php" />
+        <option value="$PROJECT_DIR$/themes/WillWritingPartnership/partials/calcresult.htm" />
+        <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/modules/paymentSystem/octPay/controllers/OctPayer.php" />
+        <option value="$PROJECT_DIR$/plugins/WillWritingPartnership/payments/plugin.yaml" />
+        <option value="$PROJECT_DIR$/../October/themes/WillWritingPartnership/pages/calc.htm" />
+        <option value="$PROJECT_DIR$/themes/WillWritingPartnership/pages/calc.htm" />
+        <option value="$PROJECT_DIR$/themes/WillWritingPartnership/partials/created.htm" />
+        <option value="$PROJECT_DIR$/themes/WillWritingPartnership/assets/css/theme.css" />
+        <option value="$PROJECT_DIR$/themes/WillWritingPartnership/pages/residualEst.htm" />
+        <option value="$PROJECT_DIR$/themes/WillWritingPartnership/pages/reserveBeneficiary.htm" />
+        <option value="$PROJECT_DIR$/themes/WillWritingPartnership/pages/funeralArrangement.htm" />
+        <option value="$PROJECT_DIR$/themes/WillWritingPartnership/partials/header.htm" />
+        <option value="$PROJECT_DIR$/themes/WillWritingPartnership/layouts/default.htm" />
+        <option value="$PROJECT_DIR$/themes/WillWritingPartnership/pages/user.htm" />
+        <option value="$PROJECT_DIR$/themes/WillWritingPartnership/pages/account.htm" />
+        <option value="$PROJECT_DIR$/plugins/octoberTests/components/PaymentForm.php" />
+        <option value="$PROJECT_DIR$/plugins/octoberTests/components/paymentform/default.htm" />
+        <option value="$PROJECT_DIR$/plugins/octoberTests/components/Tests.php" />
+        <option value="$PROJECT_DIR$/plugins/octoberTests/Plugin.php" />
+        <option value="$PROJECT_DIR$/plugins/octoberTests/plugin.yaml" />
+        <option value="$PROJECT_DIR$/themes/WillWritingPartnership/pages/createwill.htm" />
+        <option value="$PROJECT_DIR$/themes/WillWritingPartnership/pages/termsAndCon.htm" />
+        <option value="$PROJECT_DIR$/themes/WillWritingPartnership/pages/addTestators.htm" />
+        <option value="$PROJECT_DIR$/themes/WillWritingPartnership/pages/lastWill1.htm" />
+        <option value="$PROJECT_DIR$/themes/WillWritingPartnership/assets/javascript/profExecutors.js" />
+        <option value="$PROJECT_DIR$/themes/WillWritingPartnership/pages/profExecutors.htm" />
+        <option value="$PROJECT_DIR$/plugins/WillWritingPartnership/payments/Plugin.php" />
+        <option value="$PROJECT_DIR$/themes/WillWritingPartnership/assets/javascript/custom.js" />
+        <option value="$PROJECT_DIR$/plugins/WillWritingPartnership/payments/components/LastWill.php" />
+        <option value="$PROJECT_DIR$/plugins/WillWritingPartnership/payments/components/lastwill/default.htm" />
+        <option value="$PROJECT_DIR$/themes/WillWritingPartnership/assets/php/PaymentOctober.php" />
+        <option value="$PROJECT_DIR$/themes/WillWritingPartnership/assets/php/UTPSecure.php" />
+        <option value="$PROJECT_DIR$/themes/WillWritingPartnership/pages/payment.htm" />
+        <option value="$PROJECT_DIR$/plugins/WillWritingPartnership/payments/components/paymentform/default.htm" />
+        <option value="$PROJECT_DIR$/themes/WillWritingPartnership/partials/paymentDone.htm" />
+        <option value="$PROJECT_DIR$/plugins/WillWritingPartnership/payments/components/PaymentForm.php" />
       </list>
     </option>
   </component>
@@ -186,59 +336,107 @@
           <expand>
             <path>
               <item name="WillWritingPartnership" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WillWritingPartnership" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="WillWritingPartnership" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WillWritingPartnership" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WillWritingPartnership" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="WillWritingPartnership" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WillWritingPartnership" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WillWritingPartnership" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="WillWritingPartnership" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="WillWritingPartnership" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WillWritingPartnership" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WillWritingPartnership" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="WillWritingPartnership" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="WillWritingPartnership" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="WillWritingPartnership" type="462c0819:PsiDirectoryNode" />
+              <item name="payments" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WillWritingPartnership" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WillWritingPartnership" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="WillWritingPartnership" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="WillWritingPartnership" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="WillWritingPartnership" type="462c0819:PsiDirectoryNode" />
+              <item name="payments" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WillWritingPartnership" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WillWritingPartnership" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="WillWritingPartnership" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="WillWritingPartnership" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="WillWritingPartnership" type="462c0819:PsiDirectoryNode" />
+              <item name="payments" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="lastwill" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WillWritingPartnership" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WillWritingPartnership" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="WillWritingPartnership" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="WillWritingPartnership" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="WillWritingPartnership" type="462c0819:PsiDirectoryNode" />
+              <item name="payments" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="paymentform" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WillWritingPartnership" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WillWritingPartnership" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="WillWritingPartnership" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="pages" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="WillWritingPartnership" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WillWritingPartnership" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WillWritingPartnership" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="WillWritingPartnership" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="partials" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="WillWritingPartnership" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="WillWritingPartnership" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WillWritingPartnership" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WillWritingPartnership" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="WillWritingPartnership" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WillWritingPartnership" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WillWritingPartnership" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="WillWritingPartnership" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WillWritingPartnership" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WillWritingPartnership" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="WillWritingPartnership" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="javascript" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WillWritingPartnership" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WillWritingPartnership" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="WillWritingPartnership" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="php" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WillWritingPartnership" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WillWritingPartnership" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="WillWritingPartnership" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WillWritingPartnership" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WillWritingPartnership" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="WillWritingPartnership" type="462c0819:PsiDirectoryNode" />
+              <item name="partials" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -255,7 +453,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/plugins/WillWritingPartnership/payments/components/lastwill" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/plugins" />
       <recent name="$PROJECT_DIR$/themes/WillWritingPartnership/pages" />
     </key>
   </component>
@@ -284,36 +486,54 @@
       <workItem from="1523352121553" duration="6975000" />
       <workItem from="1523620751661" duration="624000" />
       <workItem from="1523629648005" duration="2314000" />
-      <workItem from="1523907506038" duration="423000" />
+      <workItem from="1523907506038" duration="2636000" />
+      <workItem from="1523951471773" duration="5785000" />
+      <workItem from="1524482825567" duration="221000" />
+      <workItem from="1524483460436" duration="2530000" />
+      <workItem from="1524558990826" duration="8200000" />
+      <workItem from="1525897847306" duration="6115000" />
+      <workItem from="1525963532183" duration="6986000" />
+      <workItem from="1526036935287" duration="933000" />
+      <workItem from="1526134922139" duration="8326000" />
+      <workItem from="1526211138546" duration="781000" />
+      <workItem from="1526309049163" duration="7943000" />
+      <workItem from="1526374759790" duration="7409000" />
+      <workItem from="1526387099451" duration="4962000" />
+      <workItem from="1526488728723" duration="2725000" />
+      <workItem from="1526550104322" duration="3513000" />
+      <workItem from="1526554842364" duration="2392000" />
+      <workItem from="1526570823527" duration="4432000" />
+      <workItem from="1526824281553" duration="9694000" />
+      <workItem from="1527003694906" duration="172000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10336000" />
+    <option name="totallyTimeSpent" value="95668000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24097222" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38472223" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" order="4" side_tool="true" weight="0.3298611" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32900944" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,188 +542,307 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="multiple changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="multiple changes" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/user.htm">
+    <entry file="file://$PROJECT_DIR$/config/app.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="197">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/calc.htm">
+    <entry file="file://$PROJECT_DIR$/modules/paymentSystem/octPay/controllers/OctPayer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/assets/images/045.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/3d/Plugin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/WillWritingPartnership/payments/plugin.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="2" selection-end-column="2" />
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/wills.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-299" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/Test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding>
-            <element signature="e#6#88#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="726">
+          <caret line="100" column="5" selection-start-line="22" selection-start-column="3" selection-end-line="100" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/partials/calcresult.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/account.htm">
+    <entry file="file://$PROJECT_DIR$/modules/backend/database/migrations/2013_10_01_000001_Db_Backend_Users.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="17" />
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/assets/css/theme.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8145">
-          <caret line="543" selection-start-line="543" selection-end-line="543" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/payment.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/user.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/partials/calcresult.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/account.htm">
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/partials/created.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="17" />
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../October/themes/WillWritingPartnership/pages/calc.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/error.htm">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/assets/css/theme.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8145">
-          <caret line="543" selection-start-line="543" selection-end-line="543" />
+        <state relative-caret-position="459">
+          <caret line="299" column="11" selection-start-line="299" selection-start-column="1" selection-end-line="299" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/calc.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/storage.htm">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/user.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/partials/calcresult.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/account.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/assets/css/theme.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8145">
-          <caret line="543" selection-start-line="543" selection-end-line="543" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/calc.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/assets/css/theme.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8145">
-          <caret line="543" selection-start-line="543" selection-end-line="543" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/plugins/october/demo/Plugin.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/partials/header.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="60" lean-forward="true" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/account.htm">
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/funeralArrangement.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="765">
+          <caret line="51" column="37" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/user.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="480">
+          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/calc.htm">
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/account.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/layouts/default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/october/demo/components/todo/default.htm">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/october/demo/components/todo/list.htm">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/october/demo/components/Todo.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/octoberTests/components/paymentform/default.htm" />
+    <entry file="file://$PROJECT_DIR$/plugins/octoberTests/Plugin.php" />
+    <entry file="file://$PROJECT_DIR$/plugins/octoberTests/plugin.yaml" />
+    <entry file="file://$PROJECT_DIR$/plugins/octoberTests/components/Tests.php" />
+    <entry file="file://$PROJECT_DIR$/plugins/3d/components/ThreeDPayments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="107" column="11" selection-start-line="102" selection-start-column="4" selection-end-line="107" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/3d/components/payments/default.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="2" selection-end-column="2" />
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/residualEst.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="53" column="40" lean-forward="true" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/reserveBeneficiary.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="49" column="68" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/lastWill1.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-397">
+          <caret line="60" column="183" selection-start-line="60" selection-start-column="183" selection-end-line="60" selection-end-column="183" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/termsAndCon.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/assets/javascript/profExecutors.js" />
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/profExecutors.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/WillWritingPartnership/payments/Plugin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/assets/javascript/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/WillWritingPartnership/payments/components/lastwill/createwill.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-125">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/WillWritingPartnership/payments/components/lastwill/termsAndCon.htm">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/WillWritingPartnership/payments/components/lastwill/default.htm">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/WillWritingPartnership/payments/components/LastWill.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="e#143#173#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/assets/php/PaymentOctober.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="5" selection-start-line="21" selection-start-column="3" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="e#6#88#0#PHP" expanded="true" />
+            <element signature="e#112#122#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/assets/php/UTPSecure.php" />
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/calc.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="42" column="91" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="91" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/partials/calcresult.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        <state relative-caret-position="135">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/partials/footer.htm">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/Test.php">
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/createwill.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          <folding>
-            <element signature="e#6#88#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="419">
+          <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/addTestators.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="30" column="37" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/testpayments.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/pages/payment.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        <state relative-caret-position="2580">
+          <caret line="172" selection-start-line="172" selection-end-line="177" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/WillWritingPartnership/payments/components/paymentform/default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/WillWritingPartnership/partials/paymentDone.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/WillWritingPartnership/payments/components/PaymentForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1845">
+          <caret line="123" column="19" selection-start-line="123" selection-start-column="19" selection-end-line="123" selection-end-column="19" />
+          <folding>
+            <element signature="e#6#88#0#PHP" expanded="true" />
+            <element signature="e#144#174#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

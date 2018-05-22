@@ -1,14 +1,16 @@
-1523907939a:1:{s:14:"calcresult.htm";a:5:{s:8:"fileName";s:14:"calcresult.htm";s:7:"content";s:212:"{% if answer %}
+1526141024a:1:{s:14:"calcresult.htm";a:5:{s:8:"fileName";s:14:"calcresult.htm";s:7:"content";s:227:"{% if answer %}
 <span class="lead">
     The result is <span class="label label-success">{{ answer }}</span>
+    {{ test }}
 </span>
 {% else %}
 <span class="text-muted">
     Click the go button to find answer.
 </span>
-{% endif %}";s:5:"mtime";i:1523372992;s:6:"markup";s:212:"{% if answer %}
+{% endif %}";s:5:"mtime";i:1524482869;s:6:"markup";s:227:"{% if answer %}
 <span class="lead">
     The result is <span class="label label-success">{{ answer }}</span>
+    {{ test }}
 </span>
 {% else %}
 <span class="text-muted">

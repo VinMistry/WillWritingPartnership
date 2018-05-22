@@ -1,5 +1,5 @@
 <?php 
-class Cms5ad0c1e513696015129334_523474f5e38ccfc7c911beb0c19a0ba1Class extends \Cms\Classes\PageCode
+class Cms5af7026010fec472763100_aebca0bcd6401a1fbf678494c393f8daClass extends \Cms\Classes\PageCode
 {
 public function onTest() {
         $connStr = "host=localhost port=5432 dbname=twp_db user=Vinesh password=vm2amt1509170";
@@ -26,6 +26,14 @@ public function onTest() {
             $ans = $this['answer'];
             break;
         }
-       $result = pg_query($dbconn3,"INSERT INTO Math (value) VALUES ($ans)");
+
+        DB::table('math')->insert(
+            [
+                    'value' => $ans
+            ]
+        );
+      $t = Auth::getUser()->id;
+      $this['test'] = $t;
+//    $result = pg_query($dbconn3,"INSERT INTO Math (value) VALUES ($ans)");
     }
 }

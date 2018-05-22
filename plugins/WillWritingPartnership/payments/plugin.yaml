@@ -1,0 +1,7 @@
+plugin:
+    name: 'WillWritingPartnership.payments::lang.plugin.name'
+    description: 'WillWritingPartnership.payments::lang.plugin.description'
+    author: Vinesh Mistry
+    icon: oc-icon-adjust
+    homepage: ''
+

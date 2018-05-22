@@ -51,8 +51,15 @@ class __TwigTemplate_c9bb8e0982dd1185e3c1ca3aa4fef150f56e6b6fc941ddfea651562172f
         // line 18
         echo $this->env->getExtension('Cms\Twig\Extension')->pageFilter("forgot-password");
         echo "\">Forgotten your password?</a></p>
-    <a data-request=\"onLogout\"  data-request-data=\"redirect: '/account'\"><button  class=\"btn btn-primary\">Sign out</button></a>
-</div>";
+    ";
+        // line 19
+        if (($context["user"] ?? null)) {
+            // line 20
+            echo "    <a data-request=\"onLogout\"  data-request-data=\"redirect: '/account'\"><button  class=\"btn btn-primary\">Sign out</button></a>
+    ";
+        }
+        // line 22
+        echo "</div>";
     }
 
     public function getTemplateName()
@@ -67,7 +74,7 @@ class __TwigTemplate_c9bb8e0982dd1185e3c1ca3aa4fef150f56e6b6fc941ddfea651562172f
 
     public function getDebugInfo()
     {
-        return array (  52 => 18,  46 => 14,  42 => 13,  34 => 7,  30 => 5,  24 => 3,  22 => 2,  19 => 1,);
+        return array (  62 => 22,  58 => 20,  56 => 19,  52 => 18,  46 => 14,  42 => 13,  34 => 7,  30 => 5,  24 => 3,  22 => 2,  19 => 1,);
     }
 
     public function getSourceContext()
@@ -90,7 +97,9 @@ class __TwigTemplate_c9bb8e0982dd1185e3c1ca3aa4fef150f56e6b6fc941ddfea651562172f
 
 <div class=\"container\">
     <p><a class =\"fgt-psswd\" href=\"{{ 'forgot-password'|page }}\">Forgotten your password?</a></p>
+    {% if user %}
     <a data-request=\"onLogout\"  data-request-data=\"redirect: '/account'\"><button  class=\"btn btn-primary\">Sign out</button></a>
+    {% endif %}
 </div>", "/Applications/XAMPP/xamppfiles/htdocs/WillWritingPartnership/themes/WillWritingPartnership/pages/account.htm", "");
     }
 }
